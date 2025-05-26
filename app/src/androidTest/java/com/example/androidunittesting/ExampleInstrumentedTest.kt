@@ -22,3 +22,5 @@ class ExampleInstrumentedTest {
         assertEquals("com.example.androidunittesting", appContext.packageName)
     }
 }
+
+// Instrumentation Test Cases
