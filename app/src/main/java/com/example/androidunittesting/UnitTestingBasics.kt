@@ -25,3 +25,27 @@ package com.example.androidunittesting
     Mockito - Mock Objects or Fake Objects
     Espresso - UI Interactions
  */
+
+/*** Unit Test Structure
+
+   fun testFunctionName() {
+        Arrange: Prepare inputs and expected result
+        Act: Call the function under test
+        Assert: Verify the result is as expected
+   }
+
+   Example:- @Test
+             fun testCalculateDifference_edgeCase() {
+                 // Arrange
+                    val n = 0
+                    val m = 1
+                    val expected = 0
+
+                 // Act
+                    val result = calculateDifference(n, m)
+
+                 // Assert
+                    assertEquals(expected, result)
+             }
+
+ ***/
