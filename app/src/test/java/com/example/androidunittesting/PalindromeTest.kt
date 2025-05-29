@@ -26,6 +26,7 @@ class PalindromeTest {
     fun isPalindrome_inputString_doggod_expectedTrue() {
 
         // Arrange
+
         // val palindrome = Palindrome()
 
         // Act
@@ -39,6 +40,7 @@ class PalindromeTest {
     fun isPalindrome_inputString_level_expectedTrue() {
 
         // Arrange
+
         //val palindrome = Palindrome()
 
         // Act
@@ -52,6 +54,7 @@ class PalindromeTest {
     fun isPalindrome_inputString_machine_expectedTrue() {
 
         // Arrange
+
         //val palindrome = Palindrome()
 
         // Act
@@ -65,6 +68,7 @@ class PalindromeTest {
     fun isPalindrome_inputString__expectedTrue() {
 
         // Arrange
+
         //val palindrome = Palindrome()
 
         // Act
