@@ -1,4 +1,4 @@
-package com.example.androidunittesting
+package com.example.androidunittesting.unittest
 
 /***
 
