@@ -1,9 +1,9 @@
 package com.example.androidunittesting
 
+import org.junit.Assert
 import org.junit.Test
 
-import org.junit.Assert.*
-
+// JVM Related Test Cases
 /**
  * Example local unit test, which will execute on the development machine (host).
  *
@@ -12,8 +12,6 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        Assert.assertEquals(4, 2 + 2)
     }
 }
-
-// JVM Related Test Cases
