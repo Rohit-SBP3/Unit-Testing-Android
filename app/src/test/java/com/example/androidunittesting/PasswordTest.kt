@@ -31,13 +31,64 @@ class PasswordTest {
     }
 
     @Test
-    fun reversePasswordString_input_null_expected_false() {
+    fun validatePassword_input_JohnW_expected_false() {
+        // Act
+        val res = password.validatePassword("JohnW")
+
+        // assert
+        assertEquals(false, res)
+    }
+
+    @Test
+    fun validatePassword_input_John_Wick_season1234_expected_false() {
+        // Act
+        val res = password.validatePassword("John_Wick_season1234")
+
+        // assert
+        assertEquals(false, res)
+    }
+
+    @Test
+    fun validatePassword_input__expected_false() {
+        // Act
+        val res = password.validatePassword("")
+
+        // assert
+        assertEquals(false, res)
+    }
+
+
+
+    @Test
+    fun reversePasswordString_input__expected__() {
 
         // Act
         val res = password.reversePasswordString("")
 
         //assert
         assertEquals("",res)
+
+    }
+
+    @Test
+    fun reversePasswordString_input_racecar_expected_racecar() {
+
+        // Act
+        val res = password.reversePasswordString("racecar")
+
+        //assert
+        assertEquals("racecar",res)
+
+    }
+
+    @Test
+    fun reversePasswordString_input_123_expected_racecar() {
+
+        // Act
+        val res = password.reversePasswordString("123")
+
+        //assert
+        assertEquals("321",res)
 
     }
 
