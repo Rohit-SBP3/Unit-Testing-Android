@@ -1,4 +1,4 @@
-package com.example.androidunittesting.unittest
+package com.example.androidunittesting.utils
 
 class Password {
 

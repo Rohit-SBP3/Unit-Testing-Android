@@ -1,6 +1,6 @@
 package com.example.androidunittesting
 
-import com.example.androidunittesting.unittest.Password
+import com.example.androidunittesting.utils.Password
 import org.junit.After
 import org.junit.Assert.*
 import org.junit.Before
