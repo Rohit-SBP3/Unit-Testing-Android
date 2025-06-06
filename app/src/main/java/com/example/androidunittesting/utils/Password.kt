@@ -7,9 +7,9 @@ class Password {
     }
 
     fun reversePasswordString(password: String?): String {
-        if(password.isNullOrEmpty()) return ""
+        return if(password.isNullOrEmpty()) ""
         else{
-            return password.reversed()
+            password.reversed()
         }
     }
 
