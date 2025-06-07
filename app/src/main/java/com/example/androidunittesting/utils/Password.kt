@@ -13,4 +13,11 @@ class Password {
         }
     }
 
+    fun createHash(password: String?): String {
+        val hashedFront: String = "&%$^@^&^T!(@^*(!^@)&!)&"
+        val hashedMiddle: String = "&%$^@^&^T!(@^*(!^@)&!)&"
+        val hashedBack: String = "&%$^@^&^T!(@^*(!^@)&!)&"
+        return hashedFront+password+hashedMiddle+hashedBack
+    }
+
 }
